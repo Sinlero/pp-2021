@@ -7,6 +7,10 @@ import java.util.concurrent.TimeUnit;
 
 public class PPQueue<E> implements BlockingQueue<E> {
 
+    public PPQueue(int size) {
+
+    }
+
     @Override
     public boolean add(E e) {
         return false;
