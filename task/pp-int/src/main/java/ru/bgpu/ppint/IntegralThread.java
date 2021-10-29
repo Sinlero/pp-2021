@@ -9,7 +9,6 @@ public class IntegralThread implements Runnable{
     public IntegralThread(Integral integral) {
         thread = new Thread(this);
         this.integral = integral;
-        thread.start();
     }
 
     @Override
